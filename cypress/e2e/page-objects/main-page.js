@@ -5,7 +5,7 @@ export class MainPage {
         cy.visit("https://the-internet.herokuapp.com/");
     }
 
-    clicarFormAuthentication() {
+    clickFormAuthentication() {
         cy.get(":nth-child(21) > a").click();
       }
 
